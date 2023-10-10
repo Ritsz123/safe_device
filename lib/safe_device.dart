@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/services.dart';
-import 'package:trust_location/trust_location.dart';
 
 class SafeDevice {
   static const MethodChannel _channel = const MethodChannel('safe_device');
@@ -15,11 +14,11 @@ class SafeDevice {
 
   //Can this device mock location - no need to root!
   static Future<bool> get canMockLocation async {
-    if (Platform.isAndroid) {
-      return await TrustLocation.isMockLocation;
-    } else {
+    // if (Platform.isAndroid) {
+    //   return await TrustLocation.isMockLocation;
+    // } else {
       return !await isRealDevice || await isJailBroken;
-    }
+    // }
   }
 
   // Checks whether device is real or emulator

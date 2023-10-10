@@ -2,7 +2,7 @@
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/trust_location-2.0.13" />
+      <root url="file://$USER_HOME$/.pub-cache/git/trust-location-f461d7f39195fa7ecde4804151606c90b2353d62" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

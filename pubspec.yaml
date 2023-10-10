@@ -10,10 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  trust_location:  #for mock location (for now)
-    git:
-      url: https://github.com/Ritsz123/trust-location.git
-      ref: fix/white_screen
 
 
 dev_dependencies:

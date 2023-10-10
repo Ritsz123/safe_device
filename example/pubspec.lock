@@ -207,15 +207,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.16"
-  trust_location:
-    dependency: transitive
-    description:
-      path: "."
-      ref: "fix/white_screen"
-      resolved-ref: f461d7f39195fa7ecde4804151606c90b2353d62
-      url: "https://github.com/Ritsz123/trust-location.git"
-    source: git
-    version: "2.0.13"
   vector_math:
     dependency: transitive
     description:
