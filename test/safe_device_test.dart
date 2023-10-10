@@ -8,8 +8,8 @@ void main() {
 
   setUp(() {
     final binaryMessenger =
-        TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger;
-    binaryMessenger.setMockMethodCallHandler(channel,
+        TestDefaultBinaryMessengerBinding.instance?.defaultBinaryMessenger;
+    binaryMessenger?.setMockMethodCallHandler(channel,
         (MethodCall methodCall) async {
       return '42';
     });
@@ -17,8 +17,8 @@ void main() {
 
   tearDown(() {
     final binaryMessenger =
-        TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger;
-    binaryMessenger.setMockMethodCallHandler(channel, null);
+        TestDefaultBinaryMessengerBinding.instance?.defaultBinaryMessenger;
+    binaryMessenger?.setMockMethodCallHandler(channel, null);
   });
 
   test('getPlatformVersion', () async {
